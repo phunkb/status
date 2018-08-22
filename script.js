@@ -2,12 +2,13 @@ $(document).ready(function () {
 	var config = {
 		uptimerobot: {
 			api_keys: [
-				'm779828614-2b8e76a1f638f179db6f01be',
-				'm779757287-11996787b4a4ddb79cae343b',
-				'm779757278-82acbbedc86d26ebbc129945',
-				'm779762016-33deea24d6a3e73e524d8ab0',
-				'm779870719-a710902a0c001a03244eac5e',
-				'm779870718-eada06ba00200d8ced148b37'
+				'm779766623-4efbb27a2d4259a28a2ca25f',// Home RDP
+				'm779783111-af1360b22e626ea6f0ae220e',// Plex
+				'm780859962-c594da8743e0d66f9f35f962',// Sonarr
+				'm779766620-d8fad6b17fb985083c212ee8',// TronFlix
+				'm780859975-52dbc17389c218f7d575386a',// Tautulli
+				'm780859973-7036c79e7b1f71bf613b8f45',// Radarr
+				'm780859976-496a1fbd6e634e68b29eab5b'// GitLab
 			],
 			logs: 1,
 			response_times: 1,
@@ -17,7 +18,7 @@ $(document).ready(function () {
 			response_times_warning: 1500,
 		},
 		github: {
-			org: '1activegeek',
+			org: 'christronyxyocum',
 			repo: 'status'
 		},
 		theme: 'dark'
