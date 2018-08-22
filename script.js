@@ -67,17 +67,17 @@ $(document).ready(function () {
 
 	function _uptimeRobotSetStatus(check) {
 			check.class = check.status === 2 ? 'label-success' : 'label-danger';
-			check.text = check.status === 2 ? 'operational' : 'major outage';
+			check.text = check.status === 2 ? 'Operational' : 'Major Outage';
 			if (check.status !== 2 && !check.lasterrortime) {
 				check.lasterrortime = Date.now();
 			}
 			if (check.status === 2 && Date.now() - (check.lasterrortime * 1000) <= 86400000) {
 			check.class = 'label-danger';
-			check.text = 'major outage';
+			check.text = 'Major Outage';
 		}
 		if (check.status === 2 && Math.round(check.average_response_time) >= config.uptimerobot.response_times_warning) {
 				check.class = 'label-warning';
-				check.text = 'degraded performance';
+				check.text = 'Degraded Performance';
 			}
 			return check;
 	}
@@ -165,7 +165,7 @@ $(document).ready(function () {
 
 		if (!$('#panel').data('incident')) {
 			$('#panel').attr('class', (status === 'operational' ? 'panel-success' : 'panel-warning') );
-			$('#paneltitle').html(status === 'operational' ? 'All systems are operational.' : 'One or more systems are inoperative');
+			$('#paneltitle').html(status === 'operational' ? 'All systems are currently operational!' : 'One or more systems are inoperative!');
 		}
 
 		data.monitors.forEach(function (item) {
