@@ -88,7 +88,7 @@ $(document).ready(function () {
 		const uptimeForever = monitor.all_time_uptime_ratio;
 
 			$('#services').append('<div class="list-group-item">' +
-			'<span class="badge ' + monitor.class + '"><b>' + monitor.text + '<b></span>' +
+			'<span class="badge ' + monitor.class + '"><b>' + monitor.text + '</b></span>' +
 			'<a href="#" class="list-group-item-heading" onclick="\$\(\'\#' + monitor.clean_name + '\').toggleClass(\'collapse\');">' + monitor.friendly_name + '</a>' +
 			'<div id="' + monitor.clean_name + '" class="graph collapse">' +
 			'<canvas id="' + monitor.clean_name + '_cvs" width="400" height="150"></canvas>' +
