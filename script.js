@@ -8,7 +8,9 @@ $(document).ready(function () {
 				'm779766620-d8fad6b17fb985083c212ee8',// TronFlix
 				'm780859975-52dbc17389c218f7d575386a',// Tautulli
 				'm780859973-7036c79e7b1f71bf613b8f45',// Radarr
-				'm780859976-496a1fbd6e634e68b29eab5b'// GitLab
+				'm780859976-496a1fbd6e634e68b29eab5b',// GitLab
+				'm780859984-0a189508ba2f5031d7cb774f',// Unifi
+				'm780859983-53a0ee3b3e1c31f61ed4f10f'// NZBGet
 			],
 			logs: 1,
 			response_times: 1,
