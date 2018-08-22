@@ -203,7 +203,7 @@ $(document).ready(function () {
 		if (maintainIssues.length > 0) {
 			maintainIssues.forEach(function (issue) {
 				$('#maintenance').append('<div class="list-group-item">' +
-					'<h2 class="list-group-item-heading">' + issue.title + '</h2>' +
+					'<h4 class="list-group-item-heading"><b>' + issue.title + '</b></h4>' +
 					'<p class="list-group-item-text">' + issue.body + '</p>' +
 					'</div>');
 			});
