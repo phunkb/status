@@ -45,10 +45,10 @@ $(document).ready(function () {
 	}
 
 	const status_text = {
-		'Operational': 'operational',
-		'Investigating': 'investigating',
-		'Major Outage': 'outage',
-		'Degraded Performance': 'degraded',
+		'operational': 'operational',
+		'investigating': 'investigating',
+		'major outage': 'outage',
+		'degraded performance': 'degraded',
 	};
 
 	const monitors = config.uptimerobot.api_keys;
