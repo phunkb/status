@@ -2,15 +2,24 @@ $(document).ready(function () {
 	var config = {
 		uptimerobot: {
 			api_keys: [
-				'm779766623-4efbb27a2d4259a28a2ca25f',// Home RDP
-				'm779783111-af1360b22e626ea6f0ae220e',// Plex
-				'm780859962-c594da8743e0d66f9f35f962',// Sonarr
-				'm779766620-d8fad6b17fb985083c212ee8',// TronFlix
-				'm780859975-52dbc17389c218f7d575386a',// Tautulli
-				'm780859973-7036c79e7b1f71bf613b8f45',// Radarr
-				'm780859976-496a1fbd6e634e68b29eab5b',// GitLab
-				'm780859984-0a189508ba2f5031d7cb774f',// Unifi
-				'm780859983-53a0ee3b3e1c31f61ed4f10f'// NZBGet
+				// Home RDP
+				'm779766623-4efbb27a2d4259a28a2ca25f',
+				// Plex
+				'm779783111-af1360b22e626ea6f0ae220e',
+				// Sonarr
+				'm780859962-c594da8743e0d66f9f35f962',
+				// TronFlix
+				'm779766620-d8fad6b17fb985083c212ee8',
+				// Tautulli
+				'm780859975-52dbc17389c218f7d575386a',
+				// Radarr
+				'm780859973-7036c79e7b1f71bf613b8f45',
+				// GitLab
+				'm780859976-496a1fbd6e634e68b29eab5b',
+				// Unifi
+				'm780859984-0a189508ba2f5031d7cb774f',
+				// NZBGet
+				'm780859983-53a0ee3b3e1c31f61ed4f10f'
 			],
 			logs: 1,
 			response_times: 1,
@@ -156,7 +165,7 @@ $(document).ready(function () {
 
 		if (!$('#panel').data('incident')) {
 			$('#panel').attr('class', (status === 'operational' ? 'panel-success' : 'panel-warning') );
-			$('#paneltitle').html(status === 'operational' ? 'All systems are operational.' : 'One or more systems inoperative');
+			$('#paneltitle').html(status === 'operational' ? 'All systems are operational.' : 'One or more systems are inoperative');
 		}
 
 		data.monitors.forEach(function (item) {
