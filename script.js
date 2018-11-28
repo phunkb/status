@@ -6,14 +6,30 @@ $(document).ready(function () {
 				'm780188218-875bc287e53b1d8b129f3bbb',
 				// Sonarr
 				'm780467853-cbc22ca400f85ffedf315f3e',
+				// Sonarr Remux
+				'm781526270-cf2d77aab85772d9561820f0'
+				// Sonarr 4K
+				'm781526272-73ca9ae7aa45e0aaf7ee21c8'
 				// Organizr
 				'm781181126-ae1e0ada609d368546c77cc8',
 				// Tautulli
 				'm780467860-75eec190bbc73caeb903773b',
 				// Radarr
 				'm780467849-87a798664de13d019a9e3c64',
+				// Radarr 4K
+				'm781181122-2c742eec56e921d021660bfa'
+				// Lidarr
+				'm780467855-7f771bafbd2531a87a1eca37'
 				// NZBGet
 				'm781181115-ac139eb85a7d05572b63b93d'
+				// ruTorrent
+				'm780467858-995a8a9f2266a871c0f4f5d2'
+				// Jackett
+				'm780467864-bf00069cb27e66a85ad31954'
+				// Ombi
+				'm781181120-9cf086cbf55da64a576ff2f7'
+				// Portainer
+				'm781181110-83b5acf0baf2e8b18a9bc977'
 			],
 			logs: 1,
 			response_times: 1,
