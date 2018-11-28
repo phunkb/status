@@ -55,7 +55,7 @@ $(document).ready(function () {
 	}
 
 	const status_text = {
-		'operational': 'operational',
+		'operational': 'ONLINE',
 		'investigating': 'investigating',
 		'major outage': 'outage',
 		'degraded performance': 'degraded',
