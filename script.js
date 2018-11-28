@@ -2,14 +2,12 @@ $(document).ready(function () {
 	var config = {
 		uptimerobot: {
 			api_keys: [
-				// Home RDP
-				'm779766623-4efbb27a2d4259a28a2ca25f',
 				// Plex
-				'm779783111-af1360b22e626ea6f0ae220e',
+				'm780188218-875bc287e53b1d8b129f3bbb',
 				// Sonarr
 				'm780467853-cbc22ca400f85ffedf315f3e',
-				// TronFlix
-				'm779766620-d8fad6b17fb985083c212ee8',
+				// Organizr
+				'm781181126-ae1e0ada609d368546c77cc8',
 				// Tautulli
 				'm780467860-75eec190bbc73caeb903773b',
 				// Radarr
