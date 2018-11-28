@@ -13,7 +13,7 @@ $(document).ready(function () {
 				// Tautulli
 				'm780859975-52dbc17389c218f7d575386a',
 				// Radarr
-				'm780859973-7036c79e7b1f71bf613b8f45',
+				'm780467849-87a798664de13d019a9e3c64',
 				// GitLab
 				'm780859976-496a1fbd6e634e68b29eab5b',
 				// Unifi
