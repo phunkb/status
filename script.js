@@ -7,19 +7,15 @@ $(document).ready(function () {
 				// Plex
 				'm779783111-af1360b22e626ea6f0ae220e',
 				// Sonarr
-				'm780859962-c594da8743e0d66f9f35f962',
+				'm780467853-cbc22ca400f85ffedf315f3e',
 				// TronFlix
 				'm779766620-d8fad6b17fb985083c212ee8',
 				// Tautulli
-				'm780859975-52dbc17389c218f7d575386a',
+				'm780467860-75eec190bbc73caeb903773b',
 				// Radarr
 				'm780467849-87a798664de13d019a9e3c64',
-				// GitLab
-				'm780859976-496a1fbd6e634e68b29eab5b',
-				// Unifi
-				'm780859984-0a189508ba2f5031d7cb774f',
 				// NZBGet
-				'm780859983-53a0ee3b3e1c31f61ed4f10f'
+				'm781181115-ac139eb85a7d05572b63b93d'
 			],
 			logs: 1,
 			response_times: 1,
