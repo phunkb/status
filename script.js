@@ -22,7 +22,7 @@ $(document).ready(function () {
 				'm780467855-7f771bafbd2531a87a1eca37',
 				// NZBGet
 				'm781181115-ac139eb85a7d05572b63b93d',
-				// ruTorrent
+				// Deluge
 				'm780467858-995a8a9f2266a871c0f4f5d2',
 				// Jackett
 				'm780467864-bf00069cb27e66a85ad31954',
